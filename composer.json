@@ -1,0 +1,26 @@
+{
+	"name": "sabeghoon/hazm",
+	"type": "library",
+	"description": "Hazm is a library for summarizing, cleaning and processing persian text blocks.",
+	"homepage": "https://github.com/Sabeghoon/hazm",
+	"keywords": ["laravel", "laravel5", "php", "nlp", "natural-language-processing", "persian"],
+	"license": "GNU",
+	"authors": [
+		{
+			"name": "Aria Radmand",
+			"email": "aria@radmand.net",
+			"homepage": "http://ariaa.net",
+			"role": "Developer"
+		}
+	],
+	"require": {
+		"php": ">=7.2.12"
+	},
+	"autoload": {
+		"psr-4": {
+			"Sabeghoon\\Hazm\\": "src/"
+		}
+	},
+	"minimum-stability": "stable",
+	"prefer-stable": true
+}
